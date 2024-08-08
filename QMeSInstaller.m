@@ -53,7 +53,9 @@ If[ToString[Context[URLDownload]]=!="System`",URLDownload=URLSave];
 (* ::Input::Initialization:: *)
 QMeSRepositoryAddress=(*"https://raw.githubusercontent.com/CoralieSchneider/QMeS---Derivation/main/"*)"https://raw.githubusercontent.com/QMeS-toolbox/QMeS-Derivation/main/";
 
-QMeSRepositoryAddress="https://github.com/satfra/QMeS-Derivation/raw/testing";
+QMeSRepositoryAddress="https://raw.githubusercontent.com/satfra/QMeS-Derivation/testing/";
+
+
 
 (* ::Input::Initialization:: *)
 (*If[Head[QMeSZipLocation]=!=String,*)QMeSZipLocation=QMeSRepositoryAddress<>"QMeSderivation.zip"(*]*);
